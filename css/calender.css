@@ -1,0 +1,110 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: 50px auto;
+    width: 80%;
+}
+
+thead {
+    background: #FFEEFF;
+}
+
+thead tr:first-child {
+    width: 50px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+}
+
+thead tr:nth-child(2) {
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+#prev,
+#next {
+    background-color: #FFEEFF;
+    border: 0px none;
+    cursor: pointer;
+    user-select: none;
+    font-size: 30px;
+}
+
+tbody td {
+    border: 2px solid black;
+    position: relative;
+    height: 80px;
+    width: 80px;
+}
+
+tbody td:last-child,
+.blue {
+    color: blue;
+}
+
+tbody td:first-child,
+.red {
+    color: red;
+}
+
+tbody .schedules {
+    margin-top: 25px;
+}
+
+tbody .schedule {
+    margin: 0 auto 5px;
+    text-align: center;
+}
+
+tbody button {
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+tbody button:hover {
+    background-color: #EEFFFF;
+}
+
+tbody p {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+}
+
+tfoot {
+    background: #FFEEFF;
+    font-weight: bold;
+    text-align: center;
+}
+
+tfoot tr {
+    width: 50px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+}
+
+td.today {
+    background-color: #FFFFCC;
+}
+
+#today {
+    cursor: pointer;
+    user-select: none;
+    font-size: 40px;
+    background-color: #FFEEFF;
+    border: 0px none;
+}
+
+#title {
+    font-size: 30px;
+}
